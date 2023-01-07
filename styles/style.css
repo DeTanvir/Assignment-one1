@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 25px;
+    color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Header Banner Styles */
+.header {
+    background-image:  url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.header-banner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    padding: 192px 230px 24px 845px;
+    text-align: right;
+}
+
+.banner-description {
+    color: #fff;
+    padding: 0 230px 0 876px;
+    text-align: right;
+}
+
+.header .btn-primary {
+    margin: 32px 230px 200px 1210px;
+}
+
+/* Previous Year Section Styles */
+.previous-year {
+    width: 1072px;
+    margin: 0 auto;
+}
+
+.previous-year-container {
+    display: flex;
+    gap: 86px;
+    justify-content: space-around;
+    margin-top: 116px;
+}
+
+.previous-year {
+    text-align: left;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.section-description {
+    color: #151414;
+
+}
+
+.previous-year-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.previous-year-list .fa-solid {
+   color:#0af516;
+}
+
+.previous-year .section-title {
+    padding-top: 300px;
+    padding-bottom: 24px;
+}
+
+.previous-year .section-description {
+    padding-bottom: 16px;
+}
+
+/* My Plan Section Styles */
+.planning-section {
+    width: 1140px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.planning-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.planning-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.planning-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* What I Do Section Styles */
+.what-i-do {
+    width: 1140px;
+    margin: 130px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#ff99cc;
+}
+.what-i-do h3{
+    color:#FFFFFF;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margir-bottom: 20px;
+}
+.skill-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+
+/* Call Now Section Styles */
+.call-now {
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto 130px auto;
+    border-radius: 10px;
+   background-image: url(../images/watch.png), linear-gradient(to right, rgba(4,88,222,1), rgba(255,255,255,1));
+   background-position: center, center;
+}
+
+.call-now .section-title {
+    color: #fff;
+    padding-left: 65px;
+    padding-right: 615px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.call-now .btn-primary {
+    margin-left: 65px;
+}
+
+
+/* Contact/Footer Section Styles */
+.contact {
+    width: 1600px;
+    margin: 0 auto;
+    background: #151414;
+    color: #fff;
+}
+
+.contact-container {
+    display: flex;
+    padding-top: 30px;
+}
+
+.contact-social {
+    padding: 130px 230px;
+}
+
+.contact-social h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.contact-social .contact-social-description {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.contact-social .phone {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.contact-email {
+    padding-top: 130px;
+    padding-right: 230px;
+}
+
+.contact-email h5 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.contact-email form {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact-email form input{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    padding-left: 21px;
+    border: 2px solid #737272;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #F3F3F3;
+
+}
+
+.contact-email .btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    background: #005FAC;
+    color: #fff;
+}
